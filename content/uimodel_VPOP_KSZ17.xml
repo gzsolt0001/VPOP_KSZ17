@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WebUIModel csempeMod="MENU" id="VPOP_KSZ17" info="Kijelölt személyre vonatkozó tájékoztatás a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló 2017. évi LIII. törvény (Pmt.)  31. § (1) bekezdése, és az Európai Unió és az ENSZ Biztonsági Tanácsa által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásáról szóló 2017. évi LII. törvény (Kit.) 4. § (2) bekezdése alapján" mainDocumentId="VPOP_KSZ17" major="1" minor="11" mukodesiMod="NORMAL" name="VPOP_KSZ17" templateType="single" tipus="ADATSZOLGALTATAS" webDefaultLength="4" webInfo="Kijelölt személyre vonatkozó tájékoztatás a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló 2017. évi LIII. törvény (Pmt.)  31. § (1) bekezdése, és az Európai Unió és az ENSZ Biztonsági Tanácsa által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásáról szóló 2017. évi LII. törvény (Kit.) 4. § (2) bekezdése alapján" webName="VPOP_KSZ17" webOnell="false">
+    <Form id="VPOP_KSZ17" name="VPOP_KSZ17" webDefaultLength="4" webInfo="Kijelölt személyre vonatkozó tájékoztatás a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló 2017. évi LIII. törvény (Pmt.)  31. § (1) bekezdése, és az Európai Unió és az ENSZ Biztonsági Tanácsa által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásáról szóló 2017. évi LII. törvény (Kit.) 4. § (2) bekezdése alapján" webName="VPOP_KSZ17">
+        <Assistants>
+            <AssistantItem id="ROOT_ASSISTANTITEM" leaf="false" name="Mezők hozzáadása" pos="0"/>
+            <TileAssistants/>
+        </Assistants>
+        <Attachements>
+            <ATCSIZES size="0MB" sum_size="0MB" rsize="2147483647" rsum_size="2147483647"/>
+        </Attachements>
+        <FieldGroup defaultGroup="false" index="0" maxCount="0" toggleSwitch="false" type="SIMPLE" fgroupType="NORMAL" id="120002" name="1/A) Tájékoztatás célja" wId="FG1">
+            <Fid>0A0001C002A</Fid>
+            <Fid>0A0001C003A</Fid>
+            <Fid>0A0001C00500A</Fid>
+            <Fid>0A0001C00501A</Fid>
+            <Layout type="GROUP" wId="FG1_G1">
+                <Layout type="INLINE" wId="FG1_G1_I1">
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG1_G1_I1_IGH1">
+                        <Field id="0A0001C002A" label="Jogszabályi kötelezettség:" labelGrid="3" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.pmt" webLength="3" wId="FG1_G1_I1_IGH1_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="9" metaType="1" validation="true" valuesListIndex="1"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="5" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120028" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="5" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG1_G1_I1_IGH3">
+                        <Field id="0A0001C003A" label="Tájékoztatás:" labelGrid="3" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.tajekoztatas" webLength="3" wId="FG1_G1_I1_IGH3_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="25" metaType="1" validation="true" valuesListIndex="2"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="5" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120029" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="5" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP_HORIZONTAL" wId="FG1_G1_I1_IGH5">
+                        <Field id="0A0001C00500A" label="Korábban megadott adat módosítása" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="CHECKBOX" vid="kisze.korabbiadat" webLength="2" wId="FG1_G1_I1_IGH5_F1" calculated="false" default="false" irids="9" metaType="4"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP_HORIZONTAL" wId="FG1_G1_I1_IGH6">
+                        <Field id="0A0001C00501A" label="Új adat rögzítése" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="CHECKBOX" vid="kisze.ujadat" webLength="2" wId="FG1_G1_I1_IGH6_F1" calculated="false" default="false" irids="9" metaType="4"/>
+                    </Layout>
+                </Layout>
+            </Layout>
+        </FieldGroup>
+        <FieldGroup defaultGroup="false" index="1" maxCount="0" toggleSwitch="false" type="SIMPLE" fgroupType="NORMAL" id="120004" name="1/B) Szolgáltató adatai" wId="FG2">
+            <Fid>0A0001D001A</Fid>
+            <Fid>0A0001D002A</Fid>
+            <Fid>0A0001D003A</Fid>
+            <Fid>120006</Fid>
+            <Fid>0A0001D004A</Fid>
+            <Fid>0A0001D005A</Fid>
+            <Fid>0A0001D006A</Fid>
+            <Fid>0A0001D007A</Fid>
+            <Fid>0A0001D008A</Fid>
+            <Fid>0A0001D009A</Fid>
+            <Fid>0A0001D010A</Fid>
+            <Fid>0A0001D011A</Fid>
+            <Fid>0A0001D012A</Fid>
+            <Fid>0A0001D013A</Fid>
+            <Layout type="GROUP" wId="FG2_G1">
+                <Layout type="INLINE" wId="FG2_G1_I1">
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH1">
+                        <Field id="0A0001D001A" label="Név:" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.nev" webLength="8" wId="FG2_G1_I1_IGH1_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="2" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120007" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="2" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH3">
+                        <Field id="0A0001D002A" label="Adószám:" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.adosz" webLength="2" wId="FG2_G1_I1_IGH3_F1" calculated="false" default="false" irids="8" maxLength="20" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="8" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120008" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="8" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH5">
+                        <Field id="0A0001D003A" label="Szolgáltatói kör:" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.beszolg.szolgkor" webLength="10" wId="FG2_G1_I1_IGH5_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="150" metaType="1" validation="true" valuesListIndex="5"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="12" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120009" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="12" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="12" type="INLINE_GROUP" wId="FG2_G1_I1_IG7">
+                        <Field id="120006" label="Székhely, külföldi székhelyű vállalkozás esetén magyarországi fióktelep címe:" mandatory="false" readonly="false" searcher="false" style="text--align-left" type="LABEL" webLength="12" wId="FG2_G1_I1_IG7_F1" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH8">
+                        <Field id="0A0001D004A" label="Országkód:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.beszolg.szekhely.orsz" webLength="1" wId="FG2_G1_I1_IGH8_F1" calculated="false" default="false" dynList="false" irids="5" mask="##" maxLength="2" metaType="1" validation="true" valuesListIndex="3"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH9">
+                        <Field id="0A0001D005A" label="Irsz.:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.szekhely.irsz" webLength="1" wId="FG2_G1_I1_IGH9_F1" calculated="false" default="false" irids="8" maxLength="6" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH10">
+                        <Field id="0A0001D006A" label="Helységnév:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.szekhely.helys" webLength="7" wId="FG2_G1_I1_IGH10_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH11">
+                        <Field id="0A0001D007A" label="Kerület:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.szekhely.ker" webLength="1" wId="FG2_G1_I1_IGH11_F1" calculated="false" default="false" irids="3" maxLength="2" metaType="2"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH12">
+                        <Field id="0A0001D008A" label="Közterületnév:" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.szekhely.kozter" webLength="4" wId="FG2_G1_I1_IGH12_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH13">
+                        <Field id="0A0001D009A" label="Közterület jellege:" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.beszolg.szekhely.kozterj" webLength="2" wId="FG2_G1_I1_IGH13_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="10" metaType="1" validation="true" valuesListIndex="4"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="4" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120025" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="4" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH15">
+                        <Field id="0A0001D010A" label="Házszám:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.szekhely.hsz" webLength="1" wId="FG2_G1_I1_IGH15_F1" calculated="false" default="false" irids="8" maxLength="5" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH16">
+                        <Field id="0A0001D011A" label="Perszám:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.szekhely.persz" webLength="1" wId="FG2_G1_I1_IGH16_F1" calculated="false" default="false" irids="8" maxLength="4" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH17">
+                        <Field id="0A0001D012A" label="Emelet:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.szekhely.em" webLength="1" wId="FG2_G1_I1_IGH17_F1" calculated="false" default="false" irids="8" maxLength="4" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG2_G1_I1_IGH18">
+                        <Field id="0A0001D013A" label="Ajtó:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beszolg.szekhely.ajto" webLength="1" wId="FG2_G1_I1_IGH18_F1" calculated="false" default="false" irids="8" maxLength="4" metaType="1"/>
+                    </Layout>
+                </Layout>
+            </Layout>
+        </FieldGroup>
+        <FieldGroup defaultGroup="false" index="2" maxCount="0" toggleSwitch="false" type="SIMPLE" visualType="open" fgroupType="NORMAL" id="120010" name="1/C) Kijelölt személy adatai" wId="FG3">
+            <Fid>0A0001E001A</Fid>
+            <Fid>0A0001E002A</Fid>
+            <Fid>0A0001E003A</Fid>
+            <Fid>120012</Fid>
+            <Fid>0A0001E004A</Fid>
+            <Fid>0A0001E005A</Fid>
+            <Fid>0A0001E006A</Fid>
+            <Fid>0A0001E007A</Fid>
+            <Fid>0A0001E008A</Fid>
+            <Fid>0A0001E009A</Fid>
+            <Fid>0A0001E010A</Fid>
+            <Fid>0A0001E011A</Fid>
+            <Fid>0A0001E012A</Fid>
+            <Fid>0A0001E013A</Fid>
+            <Fid>0A0001E014A</Fid>
+            <Fid>120017</Fid>
+            <Fid>0A0001E0001AA</Fid>
+            <Fid>0A0001E0001BA</Fid>
+            <Fid>0A0001E0001CA</Fid>
+            <Fid>0A0001E0002AA</Fid>
+            <Fid>0A0001E0002BA</Fid>
+            <Fid>0A0001E0002CA</Fid>
+            <Fid>0A0001E0003AA</Fid>
+            <Fid>0A0001E0003BA</Fid>
+            <Fid>0A0001E0003CA</Fid>
+            <Fid>0A0001E0004AA</Fid>
+            <Fid>0A0001E0004BA</Fid>
+            <Fid>0A0001E0004CA</Fid>
+            <Fid>0A0001E0005AA</Fid>
+            <Fid>0A0001E0005BA</Fid>
+            <Fid>0A0001E0005CA</Fid>
+            <Layout type="GROUP" wId="FG3_G1">
+                <Layout type="INLINE" wId="FG3_G1_I1">
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH1">
+                        <Field id="0A0001E001A" label="Név:" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.nev" webLength="8" wId="FG3_G1_I1_IGH1_F1" calculated="false" default="false" irids="8" maxLength="50" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="2" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120014" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="2" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH3">
+                        <Field id="0A0001E002A" label="Beosztás:" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.beo" webLength="8" wId="FG3_G1_I1_IGH3_F1" calculated="false" default="false" irids="8" maxLength="50" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="2" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120015" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="2" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH5">
+                        <Field id="0A0001E003A" label="Tájékoztatási sorszám:" labelGrid="3" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.azonosito" webLength="4" wId="FG3_G1_I1_IGH5_F1" calculated="false" default="false" irids="3" maxLength="6" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="6" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120013" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="6" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="12" type="INLINE_GROUP" wId="FG3_G1_I1_IG7">
+                        <Field id="120012" label="Munkahely címe:" mandatory="false" readonly="false" searcher="false" type="LABEL" webLength="12" wId="FG3_G1_I1_IG7_F1" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH8">
+                        <Field id="0A0001E004A" label="Megegyezik a Szolgáltatóval" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="CHECKBOX" vid="kisze.azonos.cim" webLength="2" wId="FG3_G1_I1_IGH8_F1" calculated="false" default="false" irids="9" metaType="4"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="8" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120016" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="8" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH10">
+                        <Field id="0A0001E005A" label="Országkód:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.mh.cim.orsz" webLength="1" wId="FG3_G1_I1_IGH10_F1" calculated="false" default="false" dynList="false" irids="5" mask="##" maxLength="2" metaType="1" validation="true" valuesListIndex="3"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH11">
+                        <Field id="0A0001E006A" label="Irsz.:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.cim.irsz" webLength="1" wId="FG3_G1_I1_IGH11_F1" calculated="false" default="false" irids="8" maxLength="6" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH12">
+                        <Field id="0A0001E007A" label="Helységnév:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.cim.helys" webLength="7" wId="FG3_G1_I1_IGH12_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH13">
+                        <Field id="0A0001E008A" label="Kerület:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.cim.ker" webLength="1" wId="FG3_G1_I1_IGH13_F1" calculated="false" default="false" irids="3" maxLength="2" metaType="2"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH14">
+                        <Field id="0A0001E009A" label="Közterületnév:" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.cim.kozter" webLength="4" wId="FG3_G1_I1_IGH14_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH15">
+                        <Field id="0A0001E010A" label="Közterület jellege:" labelGrid="2" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.mh.cim.kozterj" webLength="2" wId="FG3_G1_I1_IGH15_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="10" metaType="1" validation="true" valuesListIndex="4"/>
+                    </Layout>
+                    <Layout fixGrid="true" grid="4" type="INLINE_GROUP_HORIZONTAL">
+                        <Field id="120024" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="4" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH17">
+                        <Field id="0A0001E011A" label="Házszám:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.cim.hsz" webLength="1" wId="FG3_G1_I1_IGH17_F1" calculated="false" default="false" irids="8" maxLength="5" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH18">
+                        <Field id="0A0001E012A" label="Perszám:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.cim.persz" webLength="1" wId="FG3_G1_I1_IGH18_F1" calculated="false" default="false" irids="8" maxLength="4" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH19">
+                        <Field id="0A0001E013A" label="Emelet:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.cim.em" webLength="1" wId="FG3_G1_I1_IGH19_F1" calculated="false" default="false" irids="8" maxLength="4" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" type="INLINE_GROUP_HORIZONTAL" wId="FG3_G1_I1_IGH20">
+                        <Field id="0A0001E014A" label="Ajtó:" labelGrid="1" labelPosition="LEFT" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.cim.ajto" webLength="1" wId="FG3_G1_I1_IGH20_F1" calculated="false" default="false" irids="8" maxLength="4" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG21">
+                        <Field id="120017" label="Elérhetőségek:" mandatory="false" readonly="false" searcher="false" type="LABEL" webLength="4" wId="FG3_G1_I1_IG21_F1" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="8" type="INLINE_GROUP">
+                        <Field id="120018" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="8" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="2" type="INLINE_GROUP" wId="FG3_G1_I1_IG23">
+                        <Field id="0A0001E0001AA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.mh.elerhetoseg1" webLength="2" wId="FG3_G1_I1_IG23_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="20" metaType="1" validation="true" valuesListIndex="6"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG24">
+                        <Field id="0A0001E0001BA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.nev1" webLength="4" wId="FG3_G1_I1_IG24_F1" calculated="true" default="false" irids="8" maxLength="25" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG25">
+                        <Field id="0A0001E0001CA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.szam1" webLength="4" wId="FG3_G1_I1_IG25_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="1" type="INLINE_GROUP">
+                        <Field id="120019" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="1" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="2" type="INLINE_GROUP" wId="FG3_G1_I1_IG27">
+                        <Field id="0A0001E0002AA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.mh.elerhetoseg2" webLength="2" wId="FG3_G1_I1_IG27_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="20" metaType="1" validation="true" valuesListIndex="6"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG28">
+                        <Field id="0A0001E0002BA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.nev2" webLength="4" wId="FG3_G1_I1_IG28_F1" calculated="true" default="false" irids="8" maxLength="25" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG29">
+                        <Field id="0A0001E0002CA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.szam2" webLength="4" wId="FG3_G1_I1_IG29_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="1" type="INLINE_GROUP">
+                        <Field id="120020" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="1" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="2" type="INLINE_GROUP" wId="FG3_G1_I1_IG31">
+                        <Field id="0A0001E0003AA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.mh.elerhetoseg3" webLength="2" wId="FG3_G1_I1_IG31_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="20" metaType="1" validation="true" valuesListIndex="6"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG32">
+                        <Field id="0A0001E0003BA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.nev3" webLength="4" wId="FG3_G1_I1_IG32_F1" calculated="true" default="false" irids="8" maxLength="25" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG33">
+                        <Field id="0A0001E0003CA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.szam3" webLength="4" wId="FG3_G1_I1_IG33_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="1" type="INLINE_GROUP">
+                        <Field id="120021" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="1" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="2" type="INLINE_GROUP" wId="FG3_G1_I1_IG35">
+                        <Field id="0A0001E0004AA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.mh.elerhetoseg4" webLength="2" wId="FG3_G1_I1_IG35_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="20" metaType="1" validation="true" valuesListIndex="6"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG36">
+                        <Field id="0A0001E0004BA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.nev4" webLength="4" wId="FG3_G1_I1_IG36_F1" calculated="true" default="false" irids="8" maxLength="25" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG37">
+                        <Field id="0A0001E0004CA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.szam4" webLength="4" wId="FG3_G1_I1_IG37_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="1" type="INLINE_GROUP">
+                        <Field id="120022" mandatory="false" readonly="false" searcher="false" separatorType="EMPTY" type="SEPARATOR" webLength="1" calculated="false" default="false" irids="0" metaType="0"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="2" type="INLINE_GROUP" wId="FG3_G1_I1_IG39">
+                        <Field id="0A0001E0005AA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="COMBOBOX" vid="kisze.mh.elerhetoseg5" webLength="2" wId="FG3_G1_I1_IG39_F1" calculated="false" default="false" dynList="false" irids="8" maxLength="20" metaType="1" validation="true" valuesListIndex="6"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG40">
+                        <Field id="0A0001E0005BA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.nev5" webLength="4" wId="FG3_G1_I1_IG40_F1" calculated="true" default="false" irids="8" maxLength="25" metaType="1"/>
+                    </Layout>
+                    <Layout fixGrid="false" grid="4" type="INLINE_GROUP" wId="FG3_G1_I1_IG41">
+                        <Field id="0A0001E0005CA" label="" labelPosition="TOP" mandatory="false" readonly="false" searcher="false" type="TEXT" vid="kisze.mh.elerhetoseg.szam5" webLength="4" wId="FG3_G1_I1_IG41_F1" calculated="false" default="false" irids="8" maxLength="40" metaType="1"/>
+                    </Layout>
+                </Layout>
+            </Layout>
+        </FieldGroup>
+        <FieldGroup defaultGroup="false" index="3" maxCount="0" toggleSwitch="false" type="SIMPLE" visualType="open" fgroupType="NORMAL" id="120027" name="1/D) Megjegyzés" wId="FG4">
+            <Fid>0A0001F001A</Fid>
+            <Layout grid="12" longLabel="true" type="VERTICAL" wId="FG4_V1">
+                <Field id="0A0001F001A" label="Megjegyzés:" labelGrid="12" labelPosition="TOP" mandatory="false" readonly="false" rows="2" searcher="false" type="TEXTAREA" vid="kisze.megjegyzes" webLength="12" calculated="false" default="false" irids="8" maxLength="150" metaType="1"/>
+            </Layout>
+        </FieldGroup>
+        <GuiLabel grid="12" id="120006" style="text--align-left" label="Székhely, külföldi székhelyű vállalkozás esetén magyarországi fióktelep címe:"/>
+        <GuiLabel grid="4" id="120017" label="Elérhetőségek:"/>
+        <GuiLabel grid="12" id="120012" label="Munkahely címe:"/>
+        <InputRule irid="1" irule="[A-Z]"/>
+        <InputRule irid="2" irule="[0-9,.]"/>
+        <InputRule irid="3" irule="[0-9]"/>
+        <InputRule irid="4" irule="[0-9+\-,.]"/>
+        <InputRule irid="5" irule="[A-Z0-9]"/>
+        <InputRule irid="6" irule="[A-ZÁÉÍÓÖŐÚÜŰ]"/>
+        <InputRule irid="7" irule="[^0-9]"/>
+        <InputRule irid="8" irule="[\x20-\uFFFF]"/>
+        <InputRule irid="9" irule="[ X]"/>
+        <InputRule irid="10" irule="[0-9+-]"/>
+        <Menu>
+            <MenuItem id="ROOT_MENUITEM" leaf="false" name="Mezők hozzáadása" pos="0" wizard="false">
+                <MenuItem id="120001" leaf="true" name="Kijelölt személy" parentId="ROOT_MENUITEM" pos="1" wizard="false">
+                    <FieldGroupId>120002</FieldGroupId>
+                    <FieldGroupId>120004</FieldGroupId>
+                    <FieldGroupId>120010</FieldGroupId>
+                    <FieldGroupId>120027</FieldGroupId>
+                </MenuItem>
+            </MenuItem>
+            <TileMenus>
+                <TileMenuItem id="120001"/>
+            </TileMenus>
+        </Menu>
+        <Message id="1" msgLevel="fatalerror">
+            <CalcId>122</CalcId>
+            <Msg>[Nyomtatvány] Kitöltése kötelező, és a "Korábban megadott adat módosítása" vagy az "Új adat rögzítése" közül csak az egyik választható ki. (Hibakód=&lt;122/&gt;)</Msg>
+        </Message>
+        <Message id="2" msgLevel="error">
+            <CalcId>100001</CalcId>
+            <CalcId>100002</CalcId>
+            <CalcId>100003</CalcId>
+            <Msg>[Nyomtatvány] Verziokontroll=1</Msg>
+        </Message>
+        <Message id="3" msgLevel="error">
+            <CalcId>117</CalcId>
+            <Msg>Ha a Tájékoztatás nem Módosítás törlése, akkor a Korábbi adat módosítása mező nem tölthető! (Hibakód=&lt;117&gt;)</Msg>
+        </Message>
+        <Message id="4" msgLevel="error">
+            <CalcId>118</CalcId>
+            <Msg>Ha a Tájékoztatás nem Módosítás törlése, akkor az Új adat rögzítése mező nem tölthető! (Hibakód=&lt;118&gt;)</Msg>
+        </Message>
+        <Message id="5" msgLevel="error">
+            <CalcId>119</CalcId>
+            <Msg>Ha a Tájékoztatás nem Módosítás törlése/Törlés kérése, akkor a Tájékoztatási sorszám mező nem tölthető! (Hibakód=&lt;119&gt;)</Msg>
+        </Message>
+        <Message id="6" msgLevel="error">
+            <CalcId>115</CalcId>
+            <CalcId>115</CalcId>
+            <CalcId>115</CalcId>
+            <CalcId>115</CalcId>
+            <CalcId>115</CalcId>
+            <Msg>Az elérhetőségnél egy megkezdett sor minden mezőjét kötelező kitölteni! (Hibakód=&lt;115&gt;)</Msg>
+        </Message>
+        <Message id="7" msgLevel="error">
+            <CalcId>93</CalcId>
+            <Msg>Meg kell adnia az "Tájékoztatási sorszám"-ot is! (Hibakód=&lt;93&gt;)</Msg>
+        </Message>
+        <Message id="8" msgLevel="error">
+            <CalcId>94</CalcId>
+            <Msg>Meg kell adnia az "Tájékoztatási sorszám"-ot is! (Hibakód=&lt;94&gt;)</Msg>
+        </Message>
+        <Message id="9" msgLevel="error">
+            <CalcId>116</CalcId>
+            <Msg>A tájékoztatási sorszám csak 6 jegyű lehet! (Hibakód=&lt;116&gt;)</Msg>
+        </Message>
+        <Message id="10" msgLevel="error">
+            <CalcId>95</CalcId>
+            <Msg>Meg kell adnia az 1/C rovat országkódot! (Hibakód=&lt;95&gt;)</Msg>
+        </Message>
+        <Message id="11" msgLevel="error">
+            <CalcId>103</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! ˙ (Hibakód=&lt;103&gt;)</Msg>
+        </Message>
+        <Message id="12" msgLevel="error">
+            <CalcId>98</CalcId>
+            <Msg>Meg kell adnia az 1/C rovat irányítószámát! (Hibakód=&lt;98&gt;)</Msg>
+        </Message>
+        <Message id="13" msgLevel="error">
+            <CalcId>104</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! (Hibakód=&lt;104&gt;)</Msg>
+        </Message>
+        <Message id="14" msgLevel="error">
+            <CalcId>99</CalcId>
+            <Msg>Meg kell adnia az 1/C rovat helységnevét! (Hibakód=&lt;99&gt;)</Msg>
+        </Message>
+        <Message id="15" msgLevel="error">
+            <CalcId>105</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! (Hibakód=&lt;105&gt;)</Msg>
+        </Message>
+        <Message id="16" msgLevel="error">
+            <CalcId>113</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! (Hibakód=&lt;113&gt;)</Msg>
+        </Message>
+        <Message id="17" msgLevel="error">
+            <CalcId>100</CalcId>
+            <Msg>Meg kell adnia az 1/C rovat közterületnevét! (Hibakód=&lt;100&gt;)</Msg>
+        </Message>
+        <Message id="18" msgLevel="error">
+            <CalcId>107</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! (Hibakód=&lt;107&gt;)</Msg>
+        </Message>
+        <Message id="19" msgLevel="error">
+            <CalcId>101</CalcId>
+            <Msg>Meg kell adnia az 1/C rovat közterület jellegét! (Hibakód=&lt;101&gt;)</Msg>
+        </Message>
+        <Message id="20" msgLevel="error">
+            <CalcId>108</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! (Hibakód=&lt;108&gt;)</Msg>
+        </Message>
+        <Message id="21" msgLevel="error">
+            <CalcId>102</CalcId>
+            <Msg>Meg kell adnia az 1/C rovat házszámát! (Hibakód=&lt;102&gt;)</Msg>
+        </Message>
+        <Message id="22" msgLevel="error">
+            <CalcId>109</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! (Hibakód=&lt;109&gt;)</Msg>
+        </Message>
+        <Message id="23" msgLevel="error">
+            <CalcId>110</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! (Hibakód=&lt;110&gt;)</Msg>
+        </Message>
+        <Message id="24" msgLevel="error">
+            <CalcId>111</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! (Hibakód=&lt;111&gt;)</Msg>
+        </Message>
+        <Message id="25" msgLevel="error">
+            <CalcId>112</CalcId>
+            <Msg>Nem adhatja az 1/C rovat címadatait! (Hibakód=&lt;112&gt;)</Msg>
+        </Message>
+        <Message id="26" msgLevel="error">
+            <CalcId>100008</CalcId>
+            <CalcId>100016</CalcId>
+            <CalcId>100009</CalcId>
+            <CalcId>100017</CalcId>
+            <CalcId>100018</CalcId>
+            <CalcId>100007</CalcId>
+            <CalcId>100012</CalcId>
+            <CalcId>100014</CalcId>
+            <CalcId>100015</CalcId>
+            <CalcId>100004</CalcId>
+            <CalcId>100010</CalcId>
+            <CalcId>100011</CalcId>
+            <CalcId>100013</CalcId>
+            <CalcId>100005</CalcId>
+            <CalcId>100006</CalcId>
+            <Msg>A mező kötelezően kitöltendő! (Hibakód=&lt;m001&gt;)</Msg>
+        </Message>
+        <SearchFieldGroupId>120002</SearchFieldGroupId>
+        <SearchFieldGroupId>120004</SearchFieldGroupId>
+        <SearchFieldGroupId>120010</SearchFieldGroupId>
+        <SearchFieldGroupId>120027</SearchFieldGroupId>
+        <ValuesList id="1866993344" index="1">
+            <List>Pmt.</List>
+            <List>Kit.</List>
+            <List>Mindkettő</List>
+            <Value>Pmt.</Value>
+            <Value>Kit.</Value>
+            <Value>Mindkettő</Value>
+        </ValuesList>
+        <ValuesList id="2098361146" index="2">
+            <List>Új szolgáltató</List>
+            <List>Új kijelölt személy</List>
+            <List>Módosítás kérése</List>
+            <List>Törlés kérése</List>
+            <Value>Új szolgáltató</Value>
+            <Value>Új kijelölt személy</Value>
+            <Value>Módosítás kérése</Value>
+            <Value>Törlés kérése</Value>
+        </ValuesList>
+        <ValuesList id="1193253736" index="3">
+            <List>HU=Magyarország</List>
+            <List>AD=Andorra</List>
+            <List>AE=Arab Emírségek</List>
+            <List>AF=Afganisztán</List>
+            <List>AG=Antigua és Barbuda</List>
+            <List>AI=Anguilla</List>
+            <List>AL=Albánia</List>
+            <List>AM=Örményország</List>
+            <List>AN=Holland Antillák</List>
+            <List>AO=Angola</List>
+            <List>AQ=Antarktisz</List>
+            <List>AR=Argentína</List>
+            <List>AS=Amerikai Szamoa</List>
+            <List>AT=Ausztria</List>
+            <List>AU=Ausztrália</List>
+            <List>AW=Aruba</List>
+            <List>AX=Aland szigetek</List>
+            <List>AZ=Azerbajdzsán</List>
+            <List>BA=Bosznia-Hercegovina</List>
+            <List>BB=Barbados</List>
+            <List>BD=Banglades</List>
+            <List>BE=Belgium</List>
+            <List>BF=Burkina Faso</List>
+            <List>BG=Bulgária</List>
+            <List>BH=Bahrein</List>
+            <List>BI=Burundi</List>
+            <List>BJ=Benin</List>
+            <List>BL=Saint-Barthélemy</List>
+            <List>BM=Bermuda</List>
+            <List>BN=Brunei</List>
+            <List>BO=Bolívia</List>
+            <List>BQ=Bonaire, Sint Eustatius és Saba</List>
+            <List>BR=Brazília</List>
+            <List>BS=Bahama-szigetek</List>
+            <List>BT=Bhután</List>
+            <List>BV=Bouvet Sziget</List>
+            <List>BW=Botswana</List>
+            <List>BY=Fehéroroszország</List>
+            <List>BZ=Belize</List>
+            <List>CA=Kanada</List>
+            <List>CC=Kókusz (Keeling)-szigetek</List>
+            <List>CD=Kongói Demokratikus Közt.</List>
+            <List>CF=Közép-afrikai Köztársaság</List>
+            <List>CG=Kongó</List>
+            <List>CH=Svájc</List>
+            <List>CI=Elefántcsontpart</List>
+            <List>CK=Cook-szigetek</List>
+            <List>CL=Chile</List>
+            <List>CM=Kamerun</List>
+            <List>CN=Kína</List>
+            <List>CO=Kolumbia</List>
+            <List>CR=Costa Rica</List>
+            <List>CU=Kuba</List>
+            <List>CV=Zöld-foki Köztársaság</List>
+            <List>CW=Curaçao</List>
+            <List>CX=Karácsony-sziget</List>
+            <List>CY=Ciprus</List>
+            <List>CZ=Csehország</List>
+            <List>DE=Németország</List>
+            <List>DJ=Dzsibuti</List>
+            <List>DK=Dánia</List>
+            <List>DM=Dominikai Közösség</List>
+            <List>DO=Dominikai Köztársaság</List>
+            <List>DZ=Algéria</List>
+            <List>EC=Ecuador</List>
+            <List>EE=Észtország</List>
+            <List>EG=Egyiptom</List>
+            <List>EH=Nyugat-Szahara</List>
+            <List>ER=Eritrea</List>
+            <List>ES=Spanyolország</List>
+            <List>ET=Etiópia</List>
+            <List>FI=Finnország</List>
+            <List>FJ=Fidzsi-szigetek</List>
+            <List>FK=Falkland-szigetek (Malvinas)</List>
+            <List>FM=Mikronézia</List>
+            <List>FO=Feröer</List>
+            <List>FR=Franciaország</List>
+            <List>GA=Gabon</List>
+            <List>GB=Nagy-Britannia</List>
+            <List>GD=Grenada</List>
+            <List>GE=Grúzia</List>
+            <List>GF=Francia Guyana</List>
+            <List>GG=Guernsey</List>
+            <List>GH=Ghána</List>
+            <List>GI=Gibraltár</List>
+            <List>GL=Grönland</List>
+            <List>GM=Gambia</List>
+            <List>GN=Guinea</List>
+            <List>GP=Guadeloupe</List>
+            <List>GQ=Egyenlítői-Guinea</List>
+            <List>GR=Görögország</List>
+            <List>GS=Déli-Georgia és Déli-Sandwich-szigetek</List>
+            <List>GT=Guatemala</List>
+            <List>GU=Guam</List>
+            <List>GW=Bissau-Guinea</List>
+            <List>GY=Guyana</List>
+            <List>HK=HongKong</List>
+            <List>HM=Heard és McDonald-szigetek</List>
+            <List>HN=Honduras</List>
+            <List>HR=Horvátország</List>
+            <List>HT=Haiti</List>
+            <List>ID=Indonézia</List>
+            <List>IE=Írország</List>
+            <List>IL=Izrael</List>
+            <List>IM=Man-sziget</List>
+            <List>IN=India</List>
+            <List>IO=Brit-Indiai Óceáni területek</List>
+            <List>IQ=Irak</List>
+            <List>IR=Irán</List>
+            <List>IS=Izland</List>
+            <List>IT=Olaszország</List>
+            <List>JE=Jersey</List>
+            <List>JM=Jamaica</List>
+            <List>JO=Jordánia</List>
+            <List>JP=Japán</List>
+            <List>KE=Kenya</List>
+            <List>KG=Kirgizisztán</List>
+            <List>KH=Kambodzsa</List>
+            <List>KI=Kiribati</List>
+            <List>KM=Comore-szigetek</List>
+            <List>KN=Saint Kitts és Nevis</List>
+            <List>KP=Koreai Népi Demokratikus Közt.</List>
+            <List>KR=Koreai Köztársaság</List>
+            <List>KW=Kuvait</List>
+            <List>KY=Kajmán-szigetek</List>
+            <List>KZ=Kazahsztán</List>
+            <List>LA=Laosz</List>
+            <List>LB=Libanon</List>
+            <List>LC=Saint Lucia</List>
+            <List>LI=Liechtenstein</List>
+            <List>LK=Srí Lanka</List>
+            <List>LR=Libéria</List>
+            <List>LS=Lesotho</List>
+            <List>LT=Litvánia</List>
+            <List>LU=Luxemburg</List>
+            <List>LV=Lettország</List>
+            <List>LY=Líbia</List>
+            <List>MA=Marokkó</List>
+            <List>MC=Monaco</List>
+            <List>MD=Moldova</List>
+            <List>ME=Montenegró</List>
+            <List>MF=Saint-Martin</List>
+            <List>MG=Madagaszkár</List>
+            <List>MH=Marshall-szigetek</List>
+            <List>MK=Macedónia</List>
+            <List>ML=Mali</List>
+            <List>MM=Mianmar</List>
+            <List>MN=Mongólia</List>
+            <List>MO=Makao</List>
+            <List>MP=Észak Mariana szigetek</List>
+            <List>MQ=Martinique</List>
+            <List>MR=Mauritánia</List>
+            <List>MS=Montserrat</List>
+            <List>MT=Málta</List>
+            <List>MU=Mauritius</List>
+            <List>MV=Maldív-szigetek</List>
+            <List>MW=Malawi</List>
+            <List>MX=Mexikó</List>
+            <List>MY=Malajzia</List>
+            <List>MZ=Mozambik</List>
+            <List>NA=Namíbia</List>
+            <List>NB=Országok szerint nem besorolható</List>
+            <List>NC=Új-Kaledónia</List>
+            <List>NE=Niger</List>
+            <List>NF=Norfolk szigetek</List>
+            <List>NG=Nigéria</List>
+            <List>NI=Nicaragua</List>
+            <List>NL=Hollandia</List>
+            <List>NO=Norvégia</List>
+            <List>NP=Nepál</List>
+            <List>NR=Nauru</List>
+            <List>NU=Niue</List>
+            <List>NZ=Új-Zéland</List>
+            <List>OM=Omán</List>
+            <List>PA=Panama</List>
+            <List>PE=Peru</List>
+            <List>PF=Francia Polinézia</List>
+            <List>PG=Pápua Új-Guinea</List>
+            <List>PH=Fülöp-szigetek</List>
+            <List>PK=Pakisztán</List>
+            <List>PL=Lengyelország</List>
+            <List>PM=Saint Pierre és Miquelon</List>
+            <List>PN=Pitcairn szigetek</List>
+            <List>PR=Puerto Rico</List>
+            <List>PS=Palesztina</List>
+            <List>PT=Portugália</List>
+            <List>PW=Palau</List>
+            <List>PY=Paraguay</List>
+            <List>QA=Katar</List>
+            <List>RE=Réunion</List>
+            <List>RO=Románia</List>
+            <List>RS=Szerbia</List>
+            <List>RU=Oroszország</List>
+            <List>RW=Ruanda</List>
+            <List>SA=Szaúd-Arábia</List>
+            <List>SB=Salamon-szigetek</List>
+            <List>SC=Seychelle-szigetek</List>
+            <List>SD=Szudán</List>
+            <List>SE=Svédország</List>
+            <List>SG=Szingapúr</List>
+            <List>SH=Szent Ilona</List>
+            <List>SI=Szlovénia</List>
+            <List>SJ=Svalbard és Jan Mayen</List>
+            <List>SK=Szlovákia</List>
+            <List>SL=Sierra Leone</List>
+            <List>SM=San Marino</List>
+            <List>SN=Szenegál</List>
+            <List>SO=Szomália</List>
+            <List>SR=Suriname</List>
+            <List>SS=Dél-Szudán</List>
+            <List>ST=Sao Tomé és Príncipe</List>
+            <List>SV=Salvador</List>
+            <List>SX=Sint Marteen</List>
+            <List>SY=Szíria</List>
+            <List>SZ=Szváziföld</List>
+            <List>TC=Turks- és Caicos-szigetek</List>
+            <List>TD=Csád</List>
+            <List>TF=Francia déli területek</List>
+            <List>TG=Togo</List>
+            <List>TH=Thaiföld</List>
+            <List>TJ=Tádzsikisztán</List>
+            <List>TK=Tokelau</List>
+            <List>TL=Kelet-Timor</List>
+            <List>TM=Türkmenisztán</List>
+            <List>TN=Tunézia</List>
+            <List>TO=Tonga</List>
+            <List>TR=Törökország</List>
+            <List>TT=Trinidad és Tobago</List>
+            <List>TV=Tuvalu</List>
+            <List>TW=Tajvan</List>
+            <List>TZ=Tanzánia</List>
+            <List>UA=Ukrajna</List>
+            <List>UG=Uganda</List>
+            <List>UM=Egyesült Államok külterületei</List>
+            <List>US=Egyesült Államok</List>
+            <List>UY=Uruguay</List>
+            <List>UZ=Üzbegisztán</List>
+            <List>VA=Vatikán</List>
+            <List>VC=Saint Vincent</List>
+            <List>VE=Venezuela</List>
+            <List>VG=Brit Virgin-szigetek</List>
+            <List>VI=Amerikai Virgin-szigetek</List>
+            <List>VN=Vietnam</List>
+            <List>VU=Vanuatu</List>
+            <List>W1=Gáza és Jerikó</List>
+            <List>WF=Wallis és Futuna</List>
+            <List>WS=Szamoa</List>
+            <List>XK=Koszovó</List>
+            <List>YE=Jemen</List>
+            <List>YT=Mayotte</List>
+            <List>ZA=Dél-Afrika</List>
+            <List>ZM=Zambia</List>
+            <List>ZW=Zimbabwe</List>
+            <List>XC=Ceuta</List>
+            <List>XL=Melilla</List>
+            <List>XX=Hontalan</List>
+            <Value>HU</Value>
+            <Value>AD</Value>
+            <Value>AE</Value>
+            <Value>AF</Value>
+            <Value>AG</Value>
+            <Value>AI</Value>
+            <Value>AL</Value>
+            <Value>AM</Value>
+            <Value>AN</Value>
+            <Value>AO</Value>
+            <Value>AQ</Value>
+            <Value>AR</Value>
+            <Value>AS</Value>
+            <Value>AT</Value>
+            <Value>AU</Value>
+            <Value>AW</Value>
+            <Value>AX</Value>
+            <Value>AZ</Value>
+            <Value>BA</Value>
+            <Value>BB</Value>
+            <Value>BD</Value>
+            <Value>BE</Value>
+            <Value>BF</Value>
+            <Value>BG</Value>
+            <Value>BH</Value>
+            <Value>BI</Value>
+            <Value>BJ</Value>
+            <Value>BL</Value>
+            <Value>BM</Value>
+            <Value>BN</Value>
+            <Value>BO</Value>
+            <Value>BQ</Value>
+            <Value>BR</Value>
+            <Value>BS</Value>
+            <Value>BT</Value>
+            <Value>BV</Value>
+            <Value>BW</Value>
+            <Value>BY</Value>
+            <Value>BZ</Value>
+            <Value>CA</Value>
+            <Value>CC</Value>
+            <Value>CD</Value>
+            <Value>CF</Value>
+            <Value>CG</Value>
+            <Value>CH</Value>
+            <Value>CI</Value>
+            <Value>CK</Value>
+            <Value>CL</Value>
+            <Value>CM</Value>
+            <Value>CN</Value>
+            <Value>CO</Value>
+            <Value>CR</Value>
+            <Value>CU</Value>
+            <Value>CV</Value>
+            <Value>CW</Value>
+            <Value>CX</Value>
+            <Value>CY</Value>
+            <Value>CZ</Value>
+            <Value>DE</Value>
+            <Value>DJ</Value>
+            <Value>DK</Value>
+            <Value>DM</Value>
+            <Value>DO</Value>
+            <Value>DZ</Value>
+            <Value>EC</Value>
+            <Value>EE</Value>
+            <Value>EG</Value>
+            <Value>EH</Value>
+            <Value>ER</Value>
+            <Value>ES</Value>
+            <Value>ET</Value>
+            <Value>FI</Value>
+            <Value>FJ</Value>
+            <Value>FK</Value>
+            <Value>FM</Value>
+            <Value>FO</Value>
+            <Value>FR</Value>
+            <Value>GA</Value>
+            <Value>GB</Value>
+            <Value>GD</Value>
+            <Value>GE</Value>
+            <Value>GF</Value>
+            <Value>GG</Value>
+            <Value>GH</Value>
+            <Value>GI</Value>
+            <Value>GL</Value>
+            <Value>GM</Value>
+            <Value>GN</Value>
+            <Value>GP</Value>
+            <Value>GQ</Value>
+            <Value>GR</Value>
+            <Value>GS</Value>
+            <Value>GT</Value>
+            <Value>GU</Value>
+            <Value>GW</Value>
+            <Value>GY</Value>
+            <Value>HK</Value>
+            <Value>HM</Value>
+            <Value>HN</Value>
+            <Value>HR</Value>
+            <Value>HT</Value>
+            <Value>ID</Value>
+            <Value>IE</Value>
+            <Value>IL</Value>
+            <Value>IM</Value>
+            <Value>IN</Value>
+            <Value>IO</Value>
+            <Value>IQ</Value>
+            <Value>IR</Value>
+            <Value>IS</Value>
+            <Value>IT</Value>
+            <Value>JE</Value>
+            <Value>JM</Value>
+            <Value>JO</Value>
+            <Value>JP</Value>
+            <Value>KE</Value>
+            <Value>KG</Value>
+            <Value>KH</Value>
+            <Value>KI</Value>
+            <Value>KM</Value>
+            <Value>KN</Value>
+            <Value>KP</Value>
+            <Value>KR</Value>
+            <Value>KW</Value>
+            <Value>KY</Value>
+            <Value>KZ</Value>
+            <Value>LA</Value>
+            <Value>LB</Value>
+            <Value>LC</Value>
+            <Value>LI</Value>
+            <Value>LK</Value>
+            <Value>LR</Value>
+            <Value>LS</Value>
+            <Value>LT</Value>
+            <Value>LU</Value>
+            <Value>LV</Value>
+            <Value>LY</Value>
+            <Value>MA</Value>
+            <Value>MC</Value>
+            <Value>MD</Value>
+            <Value>ME</Value>
+            <Value>MF</Value>
+            <Value>MG</Value>
+            <Value>MH</Value>
+            <Value>MK</Value>
+            <Value>ML</Value>
+            <Value>MM</Value>
+            <Value>MN</Value>
+            <Value>MO</Value>
+            <Value>MP</Value>
+            <Value>MQ</Value>
+            <Value>MR</Value>
+            <Value>MS</Value>
+            <Value>MT</Value>
+            <Value>MU</Value>
+            <Value>MV</Value>
+            <Value>MW</Value>
+            <Value>MX</Value>
+            <Value>MY</Value>
+            <Value>MZ</Value>
+            <Value>NA</Value>
+            <Value>NB</Value>
+            <Value>NC</Value>
+            <Value>NE</Value>
+            <Value>NF</Value>
+            <Value>NG</Value>
+            <Value>NI</Value>
+            <Value>NL</Value>
+            <Value>NO</Value>
+            <Value>NP</Value>
+            <Value>NR</Value>
+            <Value>NU</Value>
+            <Value>NZ</Value>
+            <Value>OM</Value>
+            <Value>PA</Value>
+            <Value>PE</Value>
+            <Value>PF</Value>
+            <Value>PG</Value>
+            <Value>PH</Value>
+            <Value>PK</Value>
+            <Value>PL</Value>
+            <Value>PM</Value>
+            <Value>PN</Value>
+            <Value>PR</Value>
+            <Value>PS</Value>
+            <Value>PT</Value>
+            <Value>PW</Value>
+            <Value>PY</Value>
+            <Value>QA</Value>
+            <Value>RE</Value>
+            <Value>RO</Value>
+            <Value>RS</Value>
+            <Value>RU</Value>
+            <Value>RW</Value>
+            <Value>SA</Value>
+            <Value>SB</Value>
+            <Value>SC</Value>
+            <Value>SD</Value>
+            <Value>SE</Value>
+            <Value>SG</Value>
+            <Value>SH</Value>
+            <Value>SI</Value>
+            <Value>SJ</Value>
+            <Value>SK</Value>
+            <Value>SL</Value>
+            <Value>SM</Value>
+            <Value>SN</Value>
+            <Value>SO</Value>
+            <Value>SR</Value>
+            <Value>SS</Value>
+            <Value>ST</Value>
+            <Value>SV</Value>
+            <Value>SX</Value>
+            <Value>SY</Value>
+            <Value>SZ</Value>
+            <Value>TC</Value>
+            <Value>TD</Value>
+            <Value>TF</Value>
+            <Value>TG</Value>
+            <Value>TH</Value>
+            <Value>TJ</Value>
+            <Value>TK</Value>
+            <Value>TL</Value>
+            <Value>TM</Value>
+            <Value>TN</Value>
+            <Value>TO</Value>
+            <Value>TR</Value>
+            <Value>TT</Value>
+            <Value>TV</Value>
+            <Value>TW</Value>
+            <Value>TZ</Value>
+            <Value>UA</Value>
+            <Value>UG</Value>
+            <Value>UM</Value>
+            <Value>US</Value>
+            <Value>UY</Value>
+            <Value>UZ</Value>
+            <Value>VA</Value>
+            <Value>VC</Value>
+            <Value>VE</Value>
+            <Value>VG</Value>
+            <Value>VI</Value>
+            <Value>VN</Value>
+            <Value>VU</Value>
+            <Value>W1</Value>
+            <Value>WF</Value>
+            <Value>WS</Value>
+            <Value>XK</Value>
+            <Value>YE</Value>
+            <Value>YT</Value>
+            <Value>ZA</Value>
+            <Value>ZM</Value>
+            <Value>ZW</Value>
+            <Value>XC</Value>
+            <Value>XL</Value>
+            <Value>XX</Value>
+        </ValuesList>
+        <ValuesList id="-998519702" index="4">
+            <List>alulj=aluljáró</List>
+            <List>bokor=bokor</List>
+            <List>bástya=bástya</List>
+            <List>csator=csatorna</List>
+            <List>domb=domb</List>
+            <List>dűlő=dűlő</List>
+            <List>dűlőút=dűlőút</List>
+            <List>erdős.=erdősor</List>
+            <List>fasor=fasor</List>
+            <List>folyam=folyam</List>
+            <List>folyó=folyó</List>
+            <List>fordul=forduló</List>
+            <List>gát=gát</List>
+            <List>hat.s=határsor</List>
+            <List>hatút=határút</List>
+            <List>hegy=hegy</List>
+            <List>híd=híd</List>
+            <List>kapu=kapu</List>
+            <List>kert=kert</List>
+            <List>kilátó=kilátó</List>
+            <List>körtér=körtér</List>
+            <List>körönd=körönd</List>
+            <List>körút=körút</List>
+            <List>köz=köz</List>
+            <List>közút=közút</List>
+            <List>lakópark=lakópark</List>
+            <List>lejtő=lejtő</List>
+            <List>liget=liget</List>
+            <List>ltp=lakótelep</List>
+            <List>lépcső=lépcső</List>
+            <List>mélyút=mélyút</List>
+            <List>park=park</List>
+            <List>part=part</List>
+            <List>patak=patak</List>
+            <List>puszta=puszta</List>
+            <List>rakprt=rakpart</List>
+            <List>sor=sor</List>
+            <List>sug.út=sugárút</List>
+            <List>sziget=sziget</List>
+            <List>szoros=szoros</List>
+            <List>sétaút=sétaút</List>
+            <List>sétány=sétány</List>
+            <List>tag=tag</List>
+            <List>tanya=tanya</List>
+            <List>telep=telep</List>
+            <List>tenger=tenger</List>
+            <List>tér=tér</List>
+            <List>tó=tó</List>
+            <List>udvar=udvar</List>
+            <List>utca=utca</List>
+            <List>völgy=völgy</List>
+            <List>árok=árok</List>
+            <List>átjáró=átjáró</List>
+            <List>ér=ér</List>
+            <List>óceán=óceán</List>
+            <List>öböl=öböl</List>
+            <List>ösvén=ösvény</List>
+            <List>út=út</List>
+            <List>útja=útja</List>
+            <List>üdülő=üdülőpart</List>
+            <List>tere=tere</List>
+            <Value>alulj</Value>
+            <Value>bokor</Value>
+            <Value>bástya</Value>
+            <Value>csator</Value>
+            <Value>domb</Value>
+            <Value>dűlő</Value>
+            <Value>dűlőút</Value>
+            <Value>erdős.</Value>
+            <Value>fasor</Value>
+            <Value>folyam</Value>
+            <Value>folyó</Value>
+            <Value>fordul</Value>
+            <Value>gát</Value>
+            <Value>hat.s</Value>
+            <Value>hatút</Value>
+            <Value>hegy</Value>
+            <Value>híd</Value>
+            <Value>kapu</Value>
+            <Value>kert</Value>
+            <Value>kilátó</Value>
+            <Value>körtér</Value>
+            <Value>körönd</Value>
+            <Value>körút</Value>
+            <Value>köz</Value>
+            <Value>közút</Value>
+            <Value>lakópark</Value>
+            <Value>lejtő</Value>
+            <Value>liget</Value>
+            <Value>ltp</Value>
+            <Value>lépcső</Value>
+            <Value>mélyút</Value>
+            <Value>park</Value>
+            <Value>part</Value>
+            <Value>patak</Value>
+            <Value>puszta</Value>
+            <Value>rakprt</Value>
+            <Value>sor</Value>
+            <Value>sug.út</Value>
+            <Value>sziget</Value>
+            <Value>szoros</Value>
+            <Value>sétaút</Value>
+            <Value>sétány</Value>
+            <Value>tag</Value>
+            <Value>tanya</Value>
+            <Value>telep</Value>
+            <Value>tenger</Value>
+            <Value>tér</Value>
+            <Value>tó</Value>
+            <Value>udvar</Value>
+            <Value>utca</Value>
+            <Value>völgy</Value>
+            <Value>árok</Value>
+            <Value>átjáró</Value>
+            <Value>ér</Value>
+            <Value>óceán</Value>
+            <Value>öböl</Value>
+            <Value>ösvén</Value>
+            <Value>út</Value>
+            <Value>útja</Value>
+            <Value>üdülő</Value>
+            <Value>tere</Value>
+        </ValuesList>
+        <ValuesList id="1978784368" index="5">
+            <List>bank</List>
+            <List>pénzváltó iroda</List>
+            <List>pénzátutalási szolgáltató</List>
+            <List>befektetési szolgáltató</List>
+            <List>biztosítási szolgáltató</List>
+            <List>árutőzsdei szolgáltató</List>
+            <List>önkéntes kölcsönös biztosítópénztár</List>
+            <List>postai szolgáltató</List>
+            <List>foglalkoztatói nyugdíjszolgáltató intézményre</List>
+            <List>egyéb hitelintézet</List>
+            <List>egyéb pénzügyi szolgáltató</List>
+            <List>Magyar Államkincstár</List>
+            <List>ingatlan tulajdonjoga átruházásának, bérleti jogának üzletszerű közvetítését végző</List>
+            <List>saját tulajdonú ingatlan üzletszerű adásvételét végző</List>
+            <List>könyvvizsgálói tevékenységet végző</List>
+            <List>könyvviteli (könyvelői) tevékenységet megbízási, illetve vállalkozási jogviszony alapján végző</List>
+            <List>adószakértői, okleveles adószakértői, adótanácsadói tevékenységet megbízási, illetve vállalkozási jogviszony alapján végző</List>
+            <List>játékkaszinót, kártyatermet működtetőre vagy távszerencsejátéknak nem minősülő fogadást, távszerencsejátékot, online kaszinójátékot szervező</List>
+            <List>nemesfémmel vagy az ezekből készült tárgyakkal kereskedő</List>
+            <List>árukereskedő</List>
+            <List>ügyvéd</List>
+            <List>közjegyző</List>
+            <List>bizalmi vagyonkezelő</List>
+            <List>virtuális fizetőeszköz váltó platform</List>
+            <List>letétkezelő pénztárca-szolgáltató</List>
+            <List>kulturális javak kereskedelmével foglalkozó szolgáltató</List>
+            <List>kulturális javak kereskedelmével szabadkikötőkben foglalkozó szolgáltató</List>
+            <List>székhelyszolgáltató</List>
+            <List>központi kapcsolattartó pont</List>
+            <Value>bank</Value>
+            <Value>pénzváltó iroda</Value>
+            <Value>pénzátutalási szolgáltató</Value>
+            <Value>befektetési szolgáltató</Value>
+            <Value>biztosítási szolgáltató</Value>
+            <Value>árutőzsdei szolgáltató</Value>
+            <Value>önkéntes kölcsönös biztosítópénztár</Value>
+            <Value>postai szolgáltató</Value>
+            <Value>foglalkoztatói nyugdíjszolgáltató intézményre</Value>
+            <Value>egyéb hitelintézet</Value>
+            <Value>egyéb pénzügyi szolgáltató</Value>
+            <Value>Magyar Államkincstár</Value>
+            <Value>ingatlan tulajdonjoga átruházásának, bérleti jogának üzletszerű közvetítését végző</Value>
+            <Value>saját tulajdonú ingatlan üzletszerű adásvételét végző</Value>
+            <Value>könyvvizsgálói tevékenységet végző</Value>
+            <Value>könyvviteli (könyvelői) tevékenységet megbízási, illetve vállalkozási jogviszony alapján végző</Value>
+            <Value>adószakértői, okleveles adószakértői, adótanácsadói tevékenységet megbízási, illetve vállalkozási jogviszony alapján végző</Value>
+            <Value>játékkaszinót, kártyatermet működtetőre vagy távszerencsejátéknak nem minősülő fogadást, távszerencsejátékot, online kaszinójátékot szervező</Value>
+            <Value>nemesfémmel vagy az ezekből készült tárgyakkal kereskedő</Value>
+            <Value>árukereskedő</Value>
+            <Value>ügyvéd</Value>
+            <Value>közjegyző</Value>
+            <Value>bizalmi vagyonkezelő</Value>
+            <Value>virtuális fizetőeszköz váltó platform</Value>
+            <Value>letétkezelő pénztárca-szolgáltató</Value>
+            <Value>kulturális javak kereskedelmével foglalkozó szolgáltató</Value>
+            <Value>kulturális javak kereskedelmével szabadkikötőkben foglalkozó szolgáltató</Value>
+            <Value>székhelyszolgáltató</Value>
+            <Value>központi kapcsolattartó pont</Value>
+        </ValuesList>
+        <ValuesList id="-195194431" index="6">
+            <List>SAJÁT.V=Vezetékes telefon</List>
+            <List>SAJÁT.M=Mobiltelefon</List>
+            <List>EMAIL=E-mail</List>
+            <Value>SAJÁT.V</Value>
+            <Value>SAJÁT.M</Value>
+            <Value>EMAIL</Value>
+        </ValuesList>
+    </Form>
+</WebUIModel>

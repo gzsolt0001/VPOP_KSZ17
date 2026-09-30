@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:meta="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+        xmlns:tns="https://soap.api.nav.gov.hu/definitions/model/2.0/VPOP_KSZ17/1.11"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        targetNamespace="https://soap.api.nav.gov.hu/definitions/model/2.0/VPOP_KSZ17/1.11">
+   <import namespace="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+           schemaLocation="form_xsd_metaschema.xsd"/>
+   <element name="Doc_VPOP_KSZ17"
+            type="tns:Doc_VPOP_KSZ17_Type"
+            meta:metaType="DocMetaType">
+      <annotation>
+         <documentation>Kijelölt személyre vonatkozó tájékoztatás a pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló 2017. évi LIII. törvény (Pmt.) 31. § (1) bekezdése, és az Európai Unió és az ENSZ Biztonsági Tanácsa által elrendelt pénzügyi és vagyoni korlátozó intézkedések végrehajtásáról szóló 2017. évi LII. törvény (Kit.) 4. § (2) bekezdése alapján</documentation>
+      </annotation>
+   </element>
+   <complexType name="Doc_VPOP_KSZ17_Type">
+      <annotation>
+         <documentation>A teljes bizonylat szerkezetet leíró típus</documentation>
+      </annotation>
+      <sequence>
+         <element name="Form_VPOP_KSZ17"
+                  type="tns:Form_VPOP_KSZ17_Type"
+                  minOccurs="1"
+                  maxOccurs="1"
+                  meta:metaType="FormMetaType">
+            <annotation>
+               <documentation>VPOP_KSZ17 részbizonylat</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <simpleType name="Enum_VPOP_KSZ17_0A0001C002A">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="Pmt."/>
+         <enumeration value="Kit."/>
+         <enumeration value="Mindkettő"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_VPOP_KSZ17_0A0001C003A">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="Új szolgáltató"/>
+         <enumeration value="Új kijelölt személy"/>
+         <enumeration value="Módosítás kérése"/>
+         <enumeration value="Törlés kérése"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_VPOP_KSZ17_0A0001D004A">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="HU"/>
+         <enumeration value="AD"/>
+         <enumeration value="AE"/>
+         <enumeration value="AF"/>
+         <enumeration value="AG"/>
+         <enumeration value="AI"/>
+         <enumeration value="AL"/>
+         <enumeration value="AM"/>
+         <enumeration value="AN"/>
+         <enumeration value="AO"/>
+         <enumeration value="AQ"/>
+         <enumeration value="AR"/>
+         <enumeration value="AS"/>
+         <enumeration value="AT"/>
+         <enumeration value="AU"/>
+         <enumeration value="AW"/>
+         <enumeration value="AX"/>
+         <enumeration value="AZ"/>
+         <enumeration value="BA"/>
+         <enumeration value="BB"/>
+         <enumeration value="BD"/>
+         <enumeration value="BE"/>
+         <enumeration value="BF"/>
+         <enumeration value="BG"/>
+         <enumeration value="BH"/>
+         <enumeration value="BI"/>
+         <enumeration value="BJ"/>
+         <enumeration value="BL"/>
+         <enumeration value="BM"/>
+         <enumeration value="BN"/>
+         <enumeration value="BO"/>
+         <enumeration value="BQ"/>
+         <enumeration value="BR"/>
+         <enumeration value="BS"/>
+         <enumeration value="BT"/>
+         <enumeration value="BV"/>
+         <enumeration value="BW"/>
+         <enumeration value="BY"/>
+         <enumeration value="BZ"/>
+         <enumeration value="CA"/>
+         <enumeration value="CC"/>
+         <enumeration value="CD"/>
+         <enumeration value="CF"/>
+         <enumeration value="CG"/>
+         <enumeration value="CH"/>
+         <enumeration value="CI"/>
+         <enumeration value="CK"/>
+         <enumeration value="CL"/>
+         <enumeration value="CM"/>
+         <enumeration value="CN"/>
+         <enumeration value="CO"/>
+         <enumeration value="CR"/>
+         <enumeration value="CU"/>
+         <enumeration value="CV"/>
+         <enumeration value="CW"/>
+         <enumeration value="CX"/>
+         <enumeration value="CY"/>
+         <enumeration value="CZ"/>
+         <enumeration value="DE"/>
+         <enumeration value="DJ"/>
+         <enumeration value="DK"/>
+         <enumeration value="DM"/>
+         <enumeration value="DO"/>
+         <enumeration value="DZ"/>
+         <enumeration value="EC"/>
+         <enumeration value="EE"/>
+         <enumeration value="EG"/>
+         <enumeration value="EH"/>
+         <enumeration value="ER"/>
+         <enumeration value="ES"/>
+         <enumeration value="ET"/>
+         <enumeration value="FI"/>
+         <enumeration value="FJ"/>
+         <enumeration value="FK"/>
+         <enumeration value="FM"/>
+         <enumeration value="FO"/>
+         <enumeration value="FR"/>
+         <enumeration value="GA"/>
+         <enumeration value="GB"/>
+         <enumeration value="GD"/>
+         <enumeration value="GE"/>
+         <enumeration value="GF"/>
+         <enumeration value="GG"/>
+         <enumeration value="GH"/>
+         <enumeration value="GI"/>
+         <enumeration value="GL"/>
+         <enumeration value="GM"/>
+         <enumeration value="GN"/>
+         <enumeration value="GP"/>
+         <enumeration value="GQ"/>
+         <enumeration value="GR"/>
+         <enumeration value="GS"/>
+         <enumeration value="GT"/>
+         <enumeration value="GU"/>
+         <enumeration value="GW"/>
+         <enumeration value="GY"/>
+         <enumeration value="HK"/>
+         <enumeration value="HM"/>
+         <enumeration value="HN"/>
+         <enumeration value="HR"/>
+         <enumeration value="HT"/>
+         <enumeration value="ID"/>
+         <enumeration value="IE"/>
+         <enumeration value="IL"/>
+         <enumeration value="IM"/>
+         <enumeration value="IN"/>
+         <enumeration value="IO"/>
+         <enumeration value="IQ"/>
+         <enumeration value="IR"/>
+         <enumeration value="IS"/>
+         <enumeration value="IT"/>
+         <enumeration value="JE"/>
+         <enumeration value="JM"/>
+         <enumeration value="JO"/>
+         <enumeration value="JP"/>
+         <enumeration value="KE"/>
+         <enumeration value="KG"/>
+         <enumeration value="KH"/>
+         <enumeration value="KI"/>
+         <enumeration value="KM"/>
+         <enumeration value="KN"/>
+         <enumeration value="KP"/>
+         <enumeration value="KR"/>
+         <enumeration value="KW"/>
+         <enumeration value="KY"/>
+         <enumeration value="KZ"/>
+         <enumeration value="LA"/>
+         <enumeration value="LB"/>
+         <enumeration value="LC"/>
+         <enumeration value="LI"/>
+         <enumeration value="LK"/>
+         <enumeration value="LR"/>
+         <enumeration value="LS"/>
+         <enumeration value="LT"/>
+         <enumeration value="LU"/>
+         <enumeration value="LV"/>
+         <enumeration value="LY"/>
+         <enumeration value="MA"/>
+         <enumeration value="MC"/>
+         <enumeration value="MD"/>
+         <enumeration value="ME"/>
+         <enumeration value="MF"/>
+         <enumeration value="MG"/>
+         <enumeration value="MH"/>
+         <enumeration value="MK"/>
+         <enumeration value="ML"/>
+         <enumeration value="MM"/>
+         <enumeration value="MN"/>
+         <enumeration value="MO"/>
+         <enumeration value="MP"/>
+         <enumeration value="MQ"/>
+         <enumeration value="MR"/>
+         <enumeration value="MS"/>
+         <enumeration value="MT"/>
+         <enumeration value="MU"/>
+         <enumeration value="MV"/>
+         <enumeration value="MW"/>
+         <enumeration value="MX"/>
+         <enumeration value="MY"/>
+         <enumeration value="MZ"/>
+         <enumeration value="NA"/>
+         <enumeration value="NB"/>
+         <enumeration value="NC"/>
+         <enumeration value="NE"/>
+         <enumeration value="NF"/>
+         <enumeration value="NG"/>
+         <enumeration value="NI"/>
+         <enumeration value="NL"/>
+         <enumeration value="NO"/>
+         <enumeration value="NP"/>
+         <enumeration value="NR"/>
+         <enumeration value="NU"/>
+         <enumeration value="NZ"/>
+         <enumeration value="OM"/>
+         <enumeration value="PA"/>
+         <enumeration value="PE"/>
+         <enumeration value="PF"/>
+         <enumeration value="PG"/>
+         <enumeration value="PH"/>
+         <enumeration value="PK"/>
+         <enumeration value="PL"/>
+         <enumeration value="PM"/>
+         <enumeration value="PN"/>
+         <enumeration value="PR"/>
+         <enumeration value="PS"/>
+         <enumeration value="PT"/>
+         <enumeration value="PW"/>
+         <enumeration value="PY"/>
+         <enumeration value="QA"/>
+         <enumeration value="RE"/>
+         <enumeration value="RO"/>
+         <enumeration value="RS"/>
+         <enumeration value="RU"/>
+         <enumeration value="RW"/>
+         <enumeration value="SA"/>
+         <enumeration value="SB"/>
+         <enumeration value="SC"/>
+         <enumeration value="SD"/>
+         <enumeration value="SE"/>
+         <enumeration value="SG"/>
+         <enumeration value="SH"/>
+         <enumeration value="SI"/>
+         <enumeration value="SJ"/>
+         <enumeration value="SK"/>
+         <enumeration value="SL"/>
+         <enumeration value="SM"/>
+         <enumeration value="SN"/>
+         <enumeration value="SO"/>
+         <enumeration value="SR"/>
+         <enumeration value="SS"/>
+         <enumeration value="ST"/>
+         <enumeration value="SV"/>
+         <enumeration value="SX"/>
+         <enumeration value="SY"/>
+         <enumeration value="SZ"/>
+         <enumeration value="TC"/>
+         <enumeration value="TD"/>
+         <enumeration value="TF"/>
+         <enumeration value="TG"/>
+         <enumeration value="TH"/>
+         <enumeration value="TJ"/>
+         <enumeration value="TK"/>
+         <enumeration value="TL"/>
+         <enumeration value="TM"/>
+         <enumeration value="TN"/>
+         <enumeration value="TO"/>
+         <enumeration value="TR"/>
+         <enumeration value="TT"/>
+         <enumeration value="TV"/>
+         <enumeration value="TW"/>
+         <enumeration value="TZ"/>
+         <enumeration value="UA"/>
+         <enumeration value="UG"/>
+         <enumeration value="UM"/>
+         <enumeration value="US"/>
+         <enumeration value="UY"/>
+         <enumeration value="UZ"/>
+         <enumeration value="VA"/>
+         <enumeration value="VC"/>
+         <enumeration value="VE"/>
+         <enumeration value="VG"/>
+         <enumeration value="VI"/>
+         <enumeration value="VN"/>
+         <enumeration value="VU"/>
+         <enumeration value="W1"/>
+         <enumeration value="WF"/>
+         <enumeration value="WS"/>
+         <enumeration value="XK"/>
+         <enumeration value="YE"/>
+         <enumeration value="YT"/>
+         <enumeration value="ZA"/>
+         <enumeration value="ZM"/>
+         <enumeration value="ZW"/>
+         <enumeration value="XC"/>
+         <enumeration value="XL"/>
+         <enumeration value="XX"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_VPOP_KSZ17_0A0001D009A">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="alulj"/>
+         <enumeration value="bokor"/>
+         <enumeration value="bástya"/>
+         <enumeration value="csator"/>
+         <enumeration value="domb"/>
+         <enumeration value="dűlő"/>
+         <enumeration value="dűlőút"/>
+         <enumeration value="erdős."/>
+         <enumeration value="fasor"/>
+         <enumeration value="folyam"/>
+         <enumeration value="folyó"/>
+         <enumeration value="fordul"/>
+         <enumeration value="gát"/>
+         <enumeration value="hat.s"/>
+         <enumeration value="hatút"/>
+         <enumeration value="hegy"/>
+         <enumeration value="híd"/>
+         <enumeration value="kapu"/>
+         <enumeration value="kert"/>
+         <enumeration value="kilátó"/>
+         <enumeration value="körtér"/>
+         <enumeration value="körönd"/>
+         <enumeration value="körút"/>
+         <enumeration value="köz"/>
+         <enumeration value="közút"/>
+         <enumeration value="lakópark"/>
+         <enumeration value="lejtő"/>
+         <enumeration value="liget"/>
+         <enumeration value="ltp"/>
+         <enumeration value="lépcső"/>
+         <enumeration value="mélyút"/>
+         <enumeration value="park"/>
+         <enumeration value="part"/>
+         <enumeration value="patak"/>
+         <enumeration value="puszta"/>
+         <enumeration value="rakprt"/>
+         <enumeration value="sor"/>
+         <enumeration value="sug.út"/>
+         <enumeration value="sziget"/>
+         <enumeration value="szoros"/>
+         <enumeration value="sétaút"/>
+         <enumeration value="sétány"/>
+         <enumeration value="tag"/>
+         <enumeration value="tanya"/>
+         <enumeration value="telep"/>
+         <enumeration value="tenger"/>
+         <enumeration value="tér"/>
+         <enumeration value="tó"/>
+         <enumeration value="udvar"/>
+         <enumeration value="utca"/>
+         <enumeration value="völgy"/>
+         <enumeration value="árok"/>
+         <enumeration value="átjáró"/>
+         <enumeration value="ér"/>
+         <enumeration value="óceán"/>
+         <enumeration value="öböl"/>
+         <enumeration value="ösvén"/>
+         <enumeration value="út"/>
+         <enumeration value="útja"/>
+         <enumeration value="üdülő"/>
+         <enumeration value="tere"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_VPOP_KSZ17_0A0001D003A">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="bank"/>
+         <enumeration value="pénzváltó iroda"/>
+         <enumeration value="pénzátutalási szolgáltató"/>
+         <enumeration value="befektetési szolgáltató"/>
+         <enumeration value="biztosítási szolgáltató"/>
+         <enumeration value="árutőzsdei szolgáltató"/>
+         <enumeration value="önkéntes kölcsönös biztosítópénztár"/>
+         <enumeration value="postai szolgáltató"/>
+         <enumeration value="foglalkoztatói nyugdíjszolgáltató intézményre"/>
+         <enumeration value="egyéb hitelintézet"/>
+         <enumeration value="egyéb pénzügyi szolgáltató"/>
+         <enumeration value="Magyar Államkincstár"/>
+         <enumeration value="ingatlan tulajdonjoga átruházásának, bérleti jogának üzletszerű közvetítését végző"/>
+         <enumeration value="saját tulajdonú ingatlan üzletszerű adásvételét végző"/>
+         <enumeration value="könyvvizsgálói tevékenységet végző"/>
+         <enumeration value="könyvviteli (könyvelői) tevékenységet megbízási, illetve vállalkozási jogviszony alapján végző"/>
+         <enumeration value="adószakértői, okleveles adószakértői, adótanácsadói tevékenységet megbízási, illetve vállalkozási jogviszony alapján végző"/>
+         <enumeration value="játékkaszinót, kártyatermet működtetőre vagy távszerencsejátéknak nem minősülő fogadást, távszerencsejátékot, online kaszinójátékot szervező"/>
+         <enumeration value="nemesfémmel vagy az ezekből készült tárgyakkal kereskedő"/>
+         <enumeration value="árukereskedő"/>
+         <enumeration value="ügyvéd"/>
+         <enumeration value="közjegyző"/>
+         <enumeration value="bizalmi vagyonkezelő"/>
+         <enumeration value="virtuális fizetőeszköz váltó platform"/>
+         <enumeration value="letétkezelő pénztárca-szolgáltató"/>
+         <enumeration value="kulturális javak kereskedelmével foglalkozó szolgáltató"/>
+         <enumeration value="kulturális javak kereskedelmével szabadkikötőkben foglalkozó szolgáltató"/>
+         <enumeration value="székhelyszolgáltató"/>
+         <enumeration value="központi kapcsolattartó pont"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_VPOP_KSZ17_0A0001E0001AA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="SAJÁT.V"/>
+         <enumeration value="SAJÁT.M"/>
+         <enumeration value="EMAIL"/>
+      </restriction>
+   </simpleType>
+   <complexType name="Form_VPOP_KSZ17_Type">
+      <annotation>
+         <documentation>A teljes nyomtatvány VPOP_KSZ17 részbiztonylatának szerkezetét leíró típus.</documentation>
+      </annotation>
+      <sequence>
+         <element name="Block_120001"
+                  type="tns:Block_VPOP_KSZ17_120001_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Kijelölt személy</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Block_VPOP_KSZ17_120001_Type">
+      <annotation>
+         <documentation>Kijelölt személy</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120002"
+                  type="tns:FieldGroup_VPOP_KSZ17_120002_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>1/A) Tájékoztatás célja</documentation>
+            </annotation>
+         </element>
+         <element name="FieldGroup_120004"
+                  type="tns:FieldGroup_VPOP_KSZ17_120004_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>1/B) Szolgáltató adatai</documentation>
+            </annotation>
+         </element>
+         <element name="FieldGroup_120010"
+                  type="tns:FieldGroup_VPOP_KSZ17_120010_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>1/C) Kijelölt személy adatai</documentation>
+            </annotation>
+         </element>
+         <element name="FieldGroup_120027"
+                  type="tns:FieldGroup_VPOP_KSZ17_120027_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>1/D) Megjegyzés</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_VPOP_KSZ17_120002_Type">
+      <annotation>
+         <documentation>1/A) Tájékoztatás célja</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001C002A"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001C002A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogszabályi kötelezettség: (kisze.pmt)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001C003A"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001C003A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Tájékoztatás: (kisze.tajekoztatas)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001C00500A"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Korábban megadott adat módosítása (kisze.korabbiadat)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001C00501A"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Új adat rögzítése (kisze.ujadat)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_VPOP_KSZ17_120004_Type">
+      <annotation>
+         <documentation>1/B) Szolgáltató adatai</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001D001A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Név: (kisze.beszolg.nev)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001D002A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Adószám: (kisze.beszolg.adosz)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001D003A"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001D003A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Szolgáltatói kör: (kisze.beszolg.szolgkor)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001D004A"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001D004A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Országkód: (kisze.beszolg.szekhely.orsz)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001D005A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Irsz.: (kisze.beszolg.szekhely.irsz)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="6"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001D006A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Helységnév: (kisze.beszolg.szekhely.helys)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001D007A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kerület: (kisze.beszolg.szekhely.ker)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001D008A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Közterületnév: (kisze.beszolg.szekhely.kozter)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001D009A"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001D009A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Közterület jellege: (kisze.beszolg.szekhely.kozterj)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001D010A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Házszám: (kisze.beszolg.szekhely.hsz)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="5"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001D011A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Perszám: (kisze.beszolg.szekhely.persz)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001D012A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Emelet: (kisze.beszolg.szekhely.em)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001D013A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Ajtó: (kisze.beszolg.szekhely.ajto)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_VPOP_KSZ17_120010_Type">
+      <annotation>
+         <documentation>1/C) Kijelölt személy adatai</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001E001A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Név: (kisze.nev)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E002A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Beosztás: (kisze.beo)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E003A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Tájékoztatási sorszám: (kisze.azonosito)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="6"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E004A"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Megegyezik a Szolgáltatóval (kisze.azonos.cim)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E005A"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001D004A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Országkód: (kisze.mh.cim.orsz)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E006A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Irsz.: (kisze.mh.cim.irsz)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="6"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E007A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Helységnév: (kisze.mh.cim.helys)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E008A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kerület: (kisze.mh.cim.ker)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E009A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Közterületnév: (kisze.mh.cim.kozter)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E010A"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001D009A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Közterület jellege: (kisze.mh.cim.kozterj)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E011A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Házszám: (kisze.mh.cim.hsz)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="5"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E012A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Perszám: (kisze.mh.cim.persz)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E013A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Emelet: (kisze.mh.cim.em)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E014A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Ajtó: (kisze.mh.cim.ajto)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0001AA"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001E0001AA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg1)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E0001BA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.nev1)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="25"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.szam1)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0002AA"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001E0001AA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg2)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E0002BA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.nev2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="25"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0002CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.szam2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0003AA"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001E0001AA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg3)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E0003BA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.nev3)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="25"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0003CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.szam3)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0004AA"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001E0001AA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg4)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E0004BA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.nev4)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="25"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0004CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.szam4)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0005AA"
+                  minOccurs="0"
+                  type="tns:Enum_VPOP_KSZ17_0A0001E0001AA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg5)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E0005BA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.nev5)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="25"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0005CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(kisze.mh.elerhetoseg.szam5)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_VPOP_KSZ17_120027_Type">
+      <annotation>
+         <documentation>1/D) Megjegyzés</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001F001A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Megjegyzés: (kisze.megjegyzes)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="150"/>
+                  <pattern value="[\t\n\r\P{C}]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+</schema>
